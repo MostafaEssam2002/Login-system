@@ -1,0 +1,22 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "database": {
+    "uri": "mongodb://mongodb:27017/E-commerce",
+    "options": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true
+    }
+  },
+  "jwtsec": "your-super-secret-jwt-key-change-this-in-production-2024",
+  "jwt": {
+    "secret": "your-production-secret-key-change-this",
+    "expiresIn": "7d"
+  },
+  "cors": {
+    "origin": "*",
+    "credentials": true
+  }
+}
